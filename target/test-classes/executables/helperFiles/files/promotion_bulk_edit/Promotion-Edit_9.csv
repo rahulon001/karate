@@ -1,6 +1,0 @@
-reference_id,add_applicable_clusters,add_excluded_clusters,discount_value,max_discount_amount,active,valid_from,valid_to,priority,min_cart_quantity,min_bill_value,add_applicable_categories,add_applicable_products,add_excluded_categories,add_excluded_products,remove_applicable_categories,remove_applicable_products,remove_excluded_categories,remove_excluded_products,remove_applicable_clusters,remove_excluded_clusters
-test12q121826,0 | a0,0 | a0,10.4891,120,FALSE,12-Dec-1990,12-Dec-2022,1,10,500.56,231| a23,64565465645,231| a23,64565HH465645,,,,,delhi3,0 | a0
-test12q121827,Tata | tatanagar,Tata | tatanagar,-9.4892,0,TRUE,13-Dec-1990,13-Dec-2022,9999,9,1000.9,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7,,,,,,Tata | tatanagar
-test12q121828,Tata | tatanagar,Tata | tatanagar,9.4893,2,FALSE,12-Dec-1990 02:00,14-Dec-2022,1,9,1501.24,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7,,,,,,Tata | tatanagar
-test12q121829,Tata | tatanagar,Tata | tatanagar,9.4894,0,TRUE,15-Dec-1990,15-Dec-2022,9999,9,2001.58,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7,,,,,,Tata | tatanagar
-test12q121830,Tata | tatanagar,Tata | tatanagar,9.4895,120.1,FALSE,16-Dec-1990,16-Dec-2022,9999,9,2501.92,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7,,,,,,Tata | tatanagar

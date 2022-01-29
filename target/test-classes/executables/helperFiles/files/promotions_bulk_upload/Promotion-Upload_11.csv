@@ -1,6 +1,0 @@
-reference_id,name,applicable_clusters,excluded_clusters,discount_type,discount_value,max_discount_amount,active,valid_from,valid_to,priority,promotion_type,min_cart_quantity,min_bill_value,applicable_categories,applicable_products,excluded_categories,excluded_products
-test12q121821,test_112,delhi1 |  delhi2,0 | a0,FLAT,9.4891,120,FALSE,12-Dec-1990,12-Dec-2000,1,BILL,10,500.56,231| a23,64565465645,231| a23,64565HH465645
-test12q121822,Rahul Promot,Tata|tatanagar,Tata|tatanagar,PERCENT,9.4892,0,TRUE,13-Dec-1990,13-Dec-2000,9999,BRAND,9,1000.9,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7
-test12q121823,Rahul Promot,Jamshedpur |  Jampot1,Tata|tatanagar,FLAT,9.4893,,FALSE,14-Dec-1990,14-Dec-2000,1,CATEGORY,9,1501.24,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7
-test12q121824,Rahul Promot,Jamshedpur |  Jampot1,Tata|tatanagar,PERCENT,9.4894,0,TRUE,15-Dec-1990,15-Dec-2000,9999,BILL,9,2001.58,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7
-test12q121825,Rahul Promot,Jamshedpur |  Jampot1,Tata|tatanagar,FLAT,9.4895,120.1,FALSE,16-Dec-1990,16-Dec-2000,9999,BRAND,9,2501.92,231| a23,6546446HHGGA|HGFHGGHF7,231| a923,6546446IHHGGA|HGFHOGGHF7

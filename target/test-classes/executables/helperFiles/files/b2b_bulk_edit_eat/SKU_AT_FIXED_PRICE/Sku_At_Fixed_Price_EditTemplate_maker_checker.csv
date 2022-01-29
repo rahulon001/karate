@@ -1,3 +1,0 @@
-b2bCouponTitle,b2bCouponId,validFrom,validTo,status,campaignId,conditionalCouponId,finalSellingPrice,vendorFunding,vendorFundingPercentage,delinkConditionalCoupon,minimumBillValue,segment
-CouponTitle1,282,13-May-2020,11-Nov-2029,16,1,,43.678,No,0,No,11,
-CouponTitle2,283,13-May-2020,11-Nov-2029,0,1,,14.99,No,0,No,11,

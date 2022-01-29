@@ -1,4 +1,0 @@
-b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,percentageOff,maxDiscount,vendorFunding,vendorFundingPercentage,minimumBillValue,segment
-TestCoupon1_percentagedisc,13-May-2020,11-Dec-2029,581,,10000,10000,10099614,BAJARA Mango Charizard1,1,0,2,,31.5,50.0,No,0.0,12,HORE CA
-TestCoupon2_percentagedisc,13-May-2020,12-Dec-2029,,100001000071385,10000,10000,10099614,BAJARA Mango Charizard2,1,0,2,,31.5,20.0,Yes,16.32,,KI RANA
-TestCoupon3_percentagedisc,13-May-2020,11-Dec-2029,581,,10000,10000,10099614,BAJARA Mango Charizard3,1,0,2,,31.5,80.76,Yes,0.0,,AL L

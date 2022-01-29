@@ -1,4 +1,0 @@
-b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,finalSellingPrice,vendorFunding,vendorFundingPercentage,minimumBillValue,segment
-FIXED_PRICE_TestCoupon1,13-May-2020,11-Dec-2029,581,,10000,10000,10099613,BAJARA Mango Charizard1,1,0,1,,13.49,Yes,56.78,7,
-FIXED_PRICE_TestCoupon2,13-May-2020,11-Dec-2029,581,,10000,10000,10099613,BAJARA Mango Charizard1,1,0,1,,14.49,No,0.0,7,
-FIXED_PRICE_TestCoupon3,13-May-2020,11-Dec-2029,581,,10000,10000,10099613,BAJARA Mango Charizard1,1,0,1,,15.498,Yes,0.0,7,

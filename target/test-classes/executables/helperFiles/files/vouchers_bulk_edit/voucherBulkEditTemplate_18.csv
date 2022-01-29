@@ -1,7 +1,0 @@
-voucherCode,voucherTitle,validFrom,validTo,status,discountAmount,maxDiscount,voucherCategory,autoApplicable,fundedBy,minBillAmount
-VoucherCode1613477175620,TestVouchers2,13-May-2020,11-Dec-2021,0,11,21,REWARD,0,BRAND,85
-VoucherCode1613477179630,TestVouchers6,13-May-2020,11-Dec-2021,0,11,21,REWARD,1,BRAND,86
-VoucherCode1613477174619,TestVouchers1,13-May-2020,11-Dec-2021,0,11,21,REWARD,1,BRAND,87
-VoucherCode1613477178628,TestVouchers5,13-May-2021,11-Dec-2020,16,11,21,REWARD,1,BRAND,88
-VoucherCode1613477177626,TestVouchers4,13-May-2020,11-Dec-2021,0,11,21,REWARD,1,BRAND,89
-VoucherCode1613477176622,TestVouchers3,13-May-2020,11-Dec-2021,0,11,21,REWARD,1,BRAND,90

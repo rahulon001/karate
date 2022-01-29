@@ -2,7 +2,7 @@
   "ENV": "<=======================>",
   "eat": {
     "phone": "9945240313",
-    "DB_url": "jdbc:oracle:thin:@10.159.20.64:1521:JCUPONDB",
+    "DB_url": "jdbc:oracle:thin:@10.159........:1521:JCUPONDB",
     "DB_username": "JIOCOUPONS",
     "DB_password": "jiocoupons_123#",
     "billAmount": 1000,
