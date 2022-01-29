@@ -1,0 +1,2 @@
+b2bCouponTitle,validFrom,validTo,status,b2cCouponId,skuId,skuName,skuQuantity,merchantGroup,discountAmount,masId,merchantRedeemCap,totalRedeemCap,campaignId,conditionalCouponId,vendorFunding,vendorFundingPercentage
+Automation flash coupon,13-May-2020 00:00,13-May-2029 00:00,0,259167,1634204203873,BAJARA Mango Charizard1,1,581,841.1,,100000000,100000000,1,,yes,12

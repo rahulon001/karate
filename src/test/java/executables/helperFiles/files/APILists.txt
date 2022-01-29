@@ -1,0 +1,43 @@
+	list of automated APIS
+sl no.	Apis
+1	/coupons/v1/coupons/b2b/bulk-upload-log
+2	/coupons/v1/coupons/b2b/download-inputFile/'+Id
+3	/coupons/v1/coupons/b2b/download-outputFile/'+Id
+4	/coupons/v1/coupons/merchant/'+masid+'/fc/coupons'
+5	/coupons/v1/coupons/merchant/fc/checkout
+6	/coupons/v1/coupons/merchant/fc/delivered
+7	/coupons/v1/coupons/merchant/fc/delayed-cancel
+8	/jm/auth/oauth/v2/token
+9	/coupons/v1/coupons/merchant/fc/mark-redeemed
+10	/coupons/v1/coupons/merchant/fc/delayed-redeem
+11	/coupons/v1/coupons/merchant-verify
+12	/coupons/v1/coupons/merchant/checkout
+13	/coupons/v1/coupons/merchant/accept-order
+14	/coupons/v1/coupons/merchant/cancel
+15	/coupons/v1/coupons/merchant/delivered
+16	/coupons/v1/coupons/merchant/mark-redeemed
+17	/coupons/v1/coupons/mastercode/coupon-codes
+18	/coupons/v1/coupons/merchant/return-order
+19	/coupons/v1/coupons/merchant-block
+20	/coupons/v1/coupons/merchant-delayed-redeem
+21	/v1/cms/brands/
+22	/v1/cms/coupon-campaign/
+23	"/v1/cms/merchant/" + <merchantGroup> + "/coupon"
+24	/coupons/v1/coupons/
+25	/coupons/v1/coupons/categories
+26	/v1/cms/admin/merchants
+27	/v1/cms/merchant/'+ <merchantId> +'/address'
+28	/v1/cms/merchant-group/'
+29	/v1/cms/mgdef
+30	/coupons/v1/coupons/merchantRedemptions
+31	/coupons/v1/coupons/merchantCoupons
+32	/coupons/v1/coupons/redeem-status
+33	/coupons/v1/coupons/merchantId-settlement
+34	/coupons/v1/coupons/merchant-settlement-report
+35	/coupons/v1/coupons/b2b/bulk-upload-log
+36	/v1/cms/userGroup/
+37	/jm/auth/oauth/v2/token
+38	/legacy/login
+39	/v1/cms/logout
+40	/v1/cms/userGroup/'+GroupId
+41	/coupons/v1/coupons/user-location'

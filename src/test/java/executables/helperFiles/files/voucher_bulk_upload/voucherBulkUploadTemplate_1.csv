@@ -1,0 +1,5 @@
+voucherTitle,validFrom,validTo,status,merchantGroup,discountAmount,masId,merchantRedeemCap,totalRedeemCap,discountType,maxDiscount,voucherCode,voucherCategory,voucherType,autoApplicable,fundedBy,minBillAmount,termsAndConditions
+Automation vouchers Never delete 1,13-May-2020,11-Dec-2028,0,,11,100001000073658,2,1,FLAT_DISCOUNT,111,VOqwwqww112,REWARD,BILL,1,BRAND,1119.1,Test T&C
+Automation vouchers Never delete 2,13-May-2020,10-Dec-2028,0,,22,100001000073658,2,1,PERCENT_DISCOUNT,222,VOqwwqww212121,REWARD,BILL,1,BRAND,2229.3,test T&C
+Automation vouchers Never delete 3,13-May-2020,10-Dec-2028,0,12416,33.4,,2,1,FLAT_DISCOUNT,323.4,VOqwwqww212121,REWARD,BILL,1,BRAND,3339.5,test T&C
+Automation vouchers Never delete 4,13-May-2020,01-Dec-2028,0,12416,33.4,,2,1,PERCENT_DISCOUNT,323.1,VOqwwqww212121,REWARD,BILL,1,BRAND,3339.5,test T&C

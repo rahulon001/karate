@@ -1,0 +1,1 @@
+zip -r data.zip . -x ".*" -x "__MACOSX"

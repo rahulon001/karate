@@ -1,0 +1,89 @@
+Merchant:
+--------
+Name: Demo merchant
+MASID: 123DEMO123DEMO123
+merchant ID : 1118875
+coordinate : 23.4262 /25.6628
+pin : 838312
+State : ambivali
+
+
+merchant group : 
+----------------
+Name : Automation_Test_Merchant_Group 
+ID: 2548
+upload ID: 3194
+
+
+brand : 
+--------
+ID : 1
+name: test Abhilash
+
+
+B2C coupon 1 : 
+----------------
+ID : 168852
+coupon Type : push 
+phone number : 9945240311/6360767826
+SKU ID: 722010101221|722010101222|722010101223
+
+
+
+b2b campaign category:
+------------------------
+ID: 262
+
+
+b2b campaign : 
+----------------
+upload id : 148 
+campaign ID : 182
+
+
+b2b coupon : 
+----------------
+SKU iD : 722010101221
+b2b coupon ID: 240548
+Discount amount 12.5
+
+
+
+========================================================
+curl --location --request POST 'localhost:3000/coupons/v1/coupons/merchant/fc/coupon-codes' \
+--header 'Content-Type: application/json' \
+--header 'x-client-type: mpos' \
+--header 'multi_redeem-enabled: false' \
+-d '{
+    "billAmount": 5000,
+    "skuData": [
+        {
+            "skuId": "722010101221",
+            "skuQty": 3,
+            "skuPrice": 11.5
+        }
+    ],
+    "masId": "123DEMO123DEMO123"
+}'
+
+=========================================================
+curl --location --request POST 'localhost:3000/coupons/v1/coupons/mastercode/coupon-codes' \
+--header 'x-client-type: mpos' \
+--header 'Content-Type: application/json' \
+-d '{
+    "phone": "9945240311",
+    "masId": "123DEMO123DEMO123",
+    "billAmount": 1000,
+    "skuData": [
+        {
+            "skuId": "722010101221",
+            "skuQty": 3,
+            "skuPrice": 11.4
+        }
+    ]
+}'
+
+=========================================================
+curl --location --request GET 'localhost:3000/coupons/v1/coupons/?version=v5&start=0&externalMerchantId=123DEMO123DEMO123&end=10' \
+--header 'x-client-type: microservice' \
+--header 'x-loginid: 9945240311'

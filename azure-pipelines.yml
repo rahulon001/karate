@@ -1,0 +1,27 @@
+trigger:
+  - master
+
+pool:
+  name: 'E-Commerce'
+
+steps:
+
+- task: Maven@3
+  inputs:
+    mavenPomFile: 'pom.xml'
+    goals: 'clean package'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/target'
+    Contents: 'cms_api-1.0-SNAPSHOT-fat-tests.jar'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+  displayName: 'Copy Artefact'  
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'cms-automation-build'
+    publishLocation: 'Container'
+
+

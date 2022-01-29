@@ -1,0 +1,6 @@
+b2bCouponTitle,validFrom,validTo,status,b2cCouponId,skuId,skuName,skuQuantity,merchantGroup,discountAmount,masId,merchantRedeemCap,totalRedeemCap,campaignType,conditionalCouponId
+Automation b2b coupon never delete1,13-May-2020,11-Dec-2028,0,252902,872122222721,10 Rs off HP PAVILION,1,581,10,,100000000,100000000,3,383
+Automation b2b coupon never delete2,13-May-2020,12-Dec-2028,0,252903,872133333721,10 Rs off SAMRUDHI,1,581,10,,100000000,100000000,2,383
+Automation b2b coupon never delete3,13-May-2020,13-Dec-2028,0,252904,87218888721,10 Rs off Orange DLicous,1,581,12.23,,100000000,100000000,1,383
+Automation b2b coupon never delete4,13-May-2020,13-Dec-2028,0,252905,87215555721,10 Rs off SAMRUDHI,1,581,10,,100000000,100000000,2,383
+Automation b2b coupon never delete5,13-May-2020,13-Dec-2028,0,252906,872177777721,10 Rs off Orange DLicous,1,581,10,,100000000,100000000,3,383

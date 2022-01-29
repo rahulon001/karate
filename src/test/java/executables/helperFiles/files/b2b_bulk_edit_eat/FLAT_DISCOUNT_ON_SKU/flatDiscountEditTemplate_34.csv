@@ -1,0 +1,3 @@
+b2bCouponTitle,b2bCouponId,validFrom,validTo,status,campaignId,conditionalCouponId,discountAmount,vendorFunding,vendorFundingPercentage,delinkConditionalCoupon,minimumBillValue,segment
+b2bCouponTitle1,380,13-May-1990 10:20,19-Nov-2029 16:40,16,2,,1,No,0.0,No,19,
+b2bCouponTitle2,381,13-May-1990 10:20,19-Nov-2029 16:40,16,2,,2,Yes,65.45,No,19,

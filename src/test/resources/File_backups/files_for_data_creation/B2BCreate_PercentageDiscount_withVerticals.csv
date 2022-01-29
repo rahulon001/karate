@@ -1,0 +1,3 @@
+b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,percentageOff,maxDiscount,minimumBillValue,vendorFunding,vendorFundingPercentage,segment
+PERCENTAGE_DISCOUNT_automation_never_delete_1,13-May-2021,11-Dec-2029,581,,100000000,100000000,711143212229,BAJARA Mango Charizard,1,0,21,,99.1,50,1000,No,0,HORECA
+PERCENTAGE_DISCOUNT_automation_never_delete_2,13-May-2021,11-Dec-2029,581,,100000000,100000000,711143212230,BAJARA Mango Charizard,1,0,21,,22,50,1000,No,0,KIRANA

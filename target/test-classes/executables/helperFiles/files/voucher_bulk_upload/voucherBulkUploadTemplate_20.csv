@@ -1,0 +1,7 @@
+voucherTitle,validFrom,validTo,status,merchantGroup,discountAmount,masId,merchantRedeemCap,totalRedeemCap,discountType,maxDiscount,voucherCode,voucherCategory,voucherType,autoApplicable,fundedBy,minBillAmount
+TestVouchers1,13-May-2020,11-Dec-2021,0,581,11.1, ,112,122,FLAT_DISCOUNT,50,VOqwwqww1,REWARD,BILL,1,BRAND,500
+TestVouchers2,13-May-2020,11-Dec-2021,0,581,11, ,112,122,FLAT_DISCOUNT,51,VOqwwqww2,REWARD,BILL,1,BRAND,501
+TestVouchers3,13-May-2020,11-Dec-2021,0,581,5, ,112,122,FLAT_DISCOUNT,52,VOqwwqww3,REWARD,BILL,0,BRAND,502
+TestVouchers4,13-May-2020,11-Dec-2021,0,581,151, ,112,122,FLA_DISCOUNT,53,VOqwwqww4,REWARD,BILL,1,BRAND,503
+TestVouchers5,13-May-2020,11-Dec-2021,0,581,11, ,112,122,PER_DISCOUNT,54,VOqwwqww5,REWARD,BILL,1,BRAND,504
+TestVouchers6,13-May-2020,11-Dec-2021,0,581,12, ,112,122,FLAT_DISCOUNT,55,VOqwwqww6,REWARD,BILL,0,BRAND,505

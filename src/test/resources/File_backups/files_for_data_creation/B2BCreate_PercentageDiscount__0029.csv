@@ -1,0 +1,4 @@
+b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,percentageOff,maxDiscount,minimumBillValue,vendorFunding,vendorFundingPercentage,segment
+B2B_sku_at_percentage_off_1_never_delete,13-May-2021 00:00,11-Dec-2029 00:00,581,,100000000,100000000,711143212226,Alfanso Mango Charizard 1,2,0,21,,10.1,50,450,No,0,
+B2B_sku_at_percentage_off_2_never_delete,14-May-2021 00:00,12-Dec-2029 00:00,581,,100000000,100000000,711143212227,Alfanso Mango Charizard 2,1,0,21,,2,23.4,400.5,Yes,100,
+B2B_sku_at_percentage_off_3_never_delete,15-May-2021 00:00,13-Dec-2029 00:00,581,,100000000,100000000,711143212228,Alfanso Mango Charizard 3,3,0,21,,3.5,100,500,Yes,1.1,

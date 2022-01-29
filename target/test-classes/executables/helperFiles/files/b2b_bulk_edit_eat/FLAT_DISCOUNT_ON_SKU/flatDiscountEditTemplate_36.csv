@@ -1,0 +1,2 @@
+b2bCouponTitle,b2bCouponId,validFrom,validTo,status,campaignId,conditionalCouponId,discountAmount,vendorFunding,vendorFundingPercentage,delinkConditionalCoupon,minimumBillValue,segment
+,380,,,,,6995,,,,Yes,14,

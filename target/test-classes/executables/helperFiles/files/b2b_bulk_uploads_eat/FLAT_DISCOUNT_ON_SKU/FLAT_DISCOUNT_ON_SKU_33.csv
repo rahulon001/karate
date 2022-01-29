@@ -1,0 +1,2 @@
+b2bCouponTitle,validFrom,validTo,status,skuId,skuName,skuQuantity,merchantGroup,discountAmount,masId,merchantRedeemCap,totalRedeemCap,campaignId,conditionalCouponId,vendorFunding,vendorFundingPercentage,minimumBillValue,segment
+Test coupon b2b 1,13-May-2020,11-Dec-2029,0,10099612,BAJARA Mango Charizard1,1,581,1.1,,10000,10000,1,,NO,0,13,HORECA|INSTITUTIONS

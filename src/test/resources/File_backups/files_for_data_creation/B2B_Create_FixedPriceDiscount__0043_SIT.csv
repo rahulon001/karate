@@ -1,0 +1,4 @@
+b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,finalSellingPrice,vendorFunding,vendorFundingPercentage,minimumBillValue
+B2B_sku_at_fixed_price_1_never_delete,13-May-2020,11-Dec-2029,21263,,100000000,100000000,833343212226,BAJARA Mango Charizard 1,2,0,1,,10.1,Yes,100,450
+B2B_sku_at_fixed_price_2_never_delete,13-May-2020,11-Dec-2029,21263,,100000000,100000000,833343212227,BAJARA Mango Charizard 2,1,0,1,,2,No,0,400.5
+B2B_sku_at_fixed_price_3_never_delete,13-May-2020,11-Dec-2029,21263,,100000000,100000000,833343212228,BAJARA Mango Charizard 3,3,0,1,,3.5,Yes,19.5,500

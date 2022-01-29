@@ -1,0 +1,2 @@
+b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,percentageOff,maxDiscount,vendorFunding,vendorFundingPercentage,minimumBillValue,segment
+TestCoupon1_percentagedisc,13-May-2020,11-Dec-2029,581,,10000,10000,10099614,BAJARA Mango Charizard1,1,0,2,,31.5,50.0,No,0.0,12,KIRANA|Horeca|All|INSTITUTIONS

@@ -1,0 +1,6 @@
+b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,discountAmount,minimumBillValue,vendorFunding,vendorFundingPercentage
+conditional coupon automation. Never delete1,13-May-2020,11-Dec-2029,581,,100000000,100000000,811146612222,BAJARA Mango Charizard12,1,0,1,21,2.2,10,No,0
+conditional coupon automation. Never delete2,13-May-2020,11-Dec-2029,581,,100000000,100000000,811188812225,BAJARA Mango Charizard12,1,0,1,21,15.5,10,No,0
+conditional coupon automation. Never delete3,13-May-2020,11-Dec-2029,29,,100000000,100000000,8770042000533,BAJARA Mango Charizard13,1,0,1,21,1,10,No,0
+conditional coupon automation. Never delete4,13-May-2020,11-Dec-2029,29,,100000000,100000000,1014200909,BAJARA Mango Charizard14,1,0,1,21,10,10,No,0
+conditional coupon automation. Never delete5,13-May-2020,11-Dec-2029,,100001000069383,100000000,100000000,1014200909,BAJARA Mango Charizard15,1,0,1,21,10,10,No,0

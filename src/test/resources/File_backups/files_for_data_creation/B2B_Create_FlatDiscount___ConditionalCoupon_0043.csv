@@ -1,0 +1,2 @@
+b2bCouponTitle,validFrom,validTo,merchantGroup,masId,merchantRedeemCap,totalRedeemCap,skuId,skuName,skuQuantity,status,campaignId,conditionalCouponId,discountAmount,minimumBillValue,vendorFunding,vendorFundingPercentage
+B2B_flat_discount_Conditional_1_never_delete,13-May-2020,11-Dec-2029,,100001000069193,100000000,100000000,833343212224,Crack Jack Biscuits 1,2,0,1,,2.1,450,No,0
