@@ -9,7 +9,7 @@ function fn() {
 	var envData_pp = read('../helperFiles/files/apiComponents_pp.json')
 	var schemaAndValidationDetails = read('../helperFiles/files/schemaAndValidation.json')
 	if (!env) {
-		env = 'sit';
+		env = 'eat';
 	}
 	var config = {
 		env: env,
@@ -20,25 +20,24 @@ function fn() {
 
 	if (env == 'dev') {
 		karate.log('Environment value is==========>', env);
-		config.baseUrl = "http://10.157........:9001";
-		config.baseUrlApp = "https://api-sit.jio.com:8443";
+		config.baseUrl = "http://10.157.254.126:9001";
 		config.envConfig = envData_dev["dev"];
 		config.envSchema = schemaAndValidationDetails["dev"];
 	} else if (env == 'sit') {
 		karate.log('Environment value is==========>', env);
-		config.baseUrl = "http://10.144........:9000";
-		config.baseUrlApp = "https://api-sit.jio.com:8443";
+		config.baseUrl = "http://10.144.108.127:9000";
 		config.envConfig = envData_sit["sit"];
 		config.envSchema = schemaAndValidationDetails["sit"];
 	} else if (env == 'eat') {
 		karate.log('Environment value is==========>', env);
-		config.baseUrl = "http://10.159........:9000";
-		config.baseUrlApp = "https://api-sit.jio.com:8443";
+		config.baseUrl = "http://10.159.20.62:9000";
 		config.envConfig = envData_eat["eat"];
 		config.envSchema = schemaAndValidationDetails["eat"];
 	}else if (env == 'pp') {
      	karate.log('Environment value is==========>', env);
-        config.baseUrl = "https://10.144........:9000";
+        config.baseUrl2 = "http://10.144.8.111:9000";
+        config.baseUrl1 = "http://10.144.8.117:9000";
+        config.baseUrl = "http://10.144.11.97:3000";
         config.envConfig = envData_pp["pp"];
         config.envSchema = schemaAndValidationDetails["pp"];
     }

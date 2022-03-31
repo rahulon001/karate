@@ -2,7 +2,7 @@
   "ENV": "<=======================>",
   "sit": {
     "phone": "9945240313",
-    "DB_url": "jdbc:oracle:thin:@10.144........::1521:JCUPONDB",
+    "DB_url": "jdbc:oracle:thin:@10.144.12.124:1521:JCUPONDB",
     "DB_username": "JIOCOUPONS",
     "DB_password": "jiocoupons_123#",
     "billAmount": 1000,
@@ -15,6 +15,8 @@
     "mas_id1_invalid": "95078948431998",
     "CMS_masid": "100001000071385",
     "MAS_masId": "100001000069193",
+    "masid_merchant1": "100001000069193",
+    "masid_merchant2": "100001000183843",
     "articleId": "lol",
     "b2c_ranking_upload_path": "src/test/java/executables/helperFiles/files/b2c_ranking_uploads_sit",
     "b2c_ranking_upload_path_read": "../helperFiles/files/b2c_ranking_uploads_sit",
@@ -3312,6 +3314,97 @@
       ],
       "segment": "ALL",
       "masId": "100001000071385"
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0036.16":
+    {
+      "masId": "100001000071385",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "1009977754",
+          "articleId": "lol",
+          "skuQty": 1,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811153212223",
+          "articleId": "lol",
+          "skuQty": 4,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption_responseData__0036.16": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 4.3,
+      "newBillAmount_mbv": 446.3999999999999,
+      "discountAmount_mbv_off": 13.3,
+      "newBillAmount_mbv_off": 437.3999999999999,
+      "quantity_811153212223": 4,
+      "quantity_1009977754": 1,
+      "discount_811153212223": 5.4,
+      "discount_1009977754": 2.1,
+      "discountType": "FLAT_DISCOUNT_ON_SKU",
+      "discountAmount": 12.9,
+      "newBillAmount": 4987.1,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "less_price": 1,
+      "sku_quantity_per_unit_811143212223":3,
+      "sku_quantity_per_unit_811143212222":1,
+      "sku_quantity_per_unit_811143212221":2,
+      "couponQty_mr_811143212223": 3,
+      "couponQty_mr_811143212222": 2,
+      "couponQty_mr_811143212221": 1,
+      "sku_quantity_per_unit_mr_811143212223":3,
+      "sku_quantity_per_unit_mr_811143212222":1,
+      "sku_quantity_per_unit_mr_811143212221":2,
+      "discount_mr_811143212223": 9,
+      "discount_mr_811143212222": 2.2,
+      "discount_mr_811143212221": 2.1,
+      "skuData1": [
+        {
+          "skuId": "1009977754",
+          "articleId": "lol",
+          "skuQty": 1,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811153212223",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009977754",
+          "articleId": "lol",
+          "skuQty": 1,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811153212223",
+          "articleId": "lol",
+          "skuQty": 6,
+          "skuPrice": 11.4
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009977754",
+          "articleId": "lol",
+          "skuQty": 1,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811153212223",
+          "articleId": "lol",
+          "skuQty": 4,
+          "skuPrice": 11.4
+        }
+      ]
     },
     "B2B_FLAT_DISCOUNT_ON_SKU_flash_coupon__0037":
     {

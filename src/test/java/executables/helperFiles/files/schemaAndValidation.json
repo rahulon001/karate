@@ -710,7 +710,41 @@
       "DISPLAY_NAME_ID": "##number",
       "CATEGORY_ID": "##number",
       "SUB_CATEGORY_ID": "##number",
-      "VENDOR_CONTRIBUTION": "#number"
+      "VENDOR_CONTRIBUTION": "#number",
+      "BILL_CONDITION" : "##number",
+      "MINIMUM_BILL_VALUE" : "##number",
+      "HOLD_TS": "##? isValidDate(_)"
+    },
+    "hold_FC_merchant_coupon" : {
+      "ID": "#number",
+      "COUPON": "##number",
+      "COUPON_TITLE": "#string",
+      "MASID": "#(masid)",
+      "CUSTOMER_COUPON_CODE": "##string",
+      "MERCHANT_COUPON_CODE": "#string",
+      "DISCOUNT_AMOUNT": "#number",
+      "STATUS": "hold",
+      "TRANSACTION_ID": "#string",
+      "CREATE_TS": "#? isValidDate(_)",
+      "CHECKOUT_TS": "#? isValidDate(_)",
+      "VERIFY_TS": null,
+      "REDEEM_TS": null,
+      "UPDATE_TS": "#? isValidDate(_)",
+      "CANCEL_TS": "##? isValidDate(_)",
+      "VALID_FROM": "#? isValidDate(_)",
+      "VALID_TO": "#? isValidDate(_)",
+      "DELIVERED_TS": "##? isValidDate(_)",
+      "B2B_COUPON_ID": "##number",
+      "CAMPAIGN_TYPE": "#number",
+      "CONDITIONAL_COUPON": "##number",
+      "CAMPAIGN_ID": "##number",
+      "DISPLAY_NAME_ID": "##number",
+      "CATEGORY_ID": "##number",
+      "SUB_CATEGORY_ID": "##number",
+      "VENDOR_CONTRIBUTION": "#number",
+      "BILL_CONDITION" : "##number",
+      "MINIMUM_BILL_VALUE" : "##number",
+      "HOLD_TS": "#? isValidDate(_)"
     },
     "checkout_FC_merchant_coupon" : {
       "ID": "#number",
@@ -739,7 +773,9 @@
       "CATEGORY_ID": "##number",
       "SUB_CATEGORY_ID": "##number",
       "VENDOR_CONTRIBUTION": "#number",
-      "BILL_CONDITION" : "##number"
+      "BILL_CONDITION" : "##number",
+      "MINIMUM_BILL_VALUE" : "##number",
+      "HOLD_TS": "#? isValidDate(_)"
     },
     "delivered_FC_merchant_coupon" : {
       "ID": "#number",
@@ -768,7 +804,9 @@
       "CATEGORY_ID": "##number",
       "SUB_CATEGORY_ID": "##number",
       "VENDOR_CONTRIBUTION": "#number",
-      "BILL_CONDITION" : "##number"
+      "BILL_CONDITION" : "##number",
+      "MINIMUM_BILL_VALUE" : "##number",
+      "HOLD_TS": "#? isValidDate(_)"
     },
     "redeemed_FC_merchant_coupon" : {
       "ID": "#number",
@@ -797,7 +835,9 @@
       "CATEGORY_ID": "##number",
       "SUB_CATEGORY_ID": "##number",
       "VENDOR_CONTRIBUTION": "#number",
-      "BILL_CONDITION" : "##number"
+      "BILL_CONDITION" : "##number",
+      "MINIMUM_BILL_VALUE" : "##number",
+      "HOLD_TS": "#? isValidDate(_)"
     },
     "cancelled_FC_merchant_coupon" : {
       "ID": "#number",
@@ -825,7 +865,10 @@
       "DISPLAY_NAME_ID": "##number",
       "CATEGORY_ID": "##number",
       "SUB_CATEGORY_ID": "##number",
-      "VENDOR_CONTRIBUTION": "#number"
+      "VENDOR_CONTRIBUTION": "#number",
+      "BILL_CONDITION" : "##number",
+      "MINIMUM_BILL_VALUE" : "##number",
+      "HOLD_TS": "#? isValidDate(_)"
     }
   }
 }

@@ -4,14 +4,34 @@ trigger:
 pool:
   name: 'E-Commerce'
 
+name: $(Build.DefinitionName)_$(SourceBranchName)_$(Build.BuildId)_$(Date:yyyyMMdd)$(Rev:.r) #Do Not Change
+
 steps:
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      touch $STAGINGDIR/build_variables
+      CURRENTDATETIME=`date +"%Y-%m-%d %T"`
+      echo "Timestamp : $CURRENTDATETIME" >> $STAGINGDIR/build_variables
+      echo "Run Sanity Automation : $AUTOMATION" >> $STAGINGDIR/build_variables
+      echo "Environment : $KARATEENV" >> $STAGINGDIR/build_variables
+      echo "Karate Opts : $KARATEOPTS" >> $STAGINGDIR/build_variables
+  env:
+    STAGINGDIR: $(Build.ArtifactStagingDirectory)
+    AUTOMATION: $(Automation)
+    KARATEENV: $(KarateEnv)
+    KARATEOPTS: $(KarateOpts)
+  displayName: 'Create build variables file'
 
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    goals: 'clean package'
+    goals: 'clean compile package'
+  displayName: 'Package Maven Project'
 
 - task: CopyFiles@2
+  condition: ne(variables['Automation'], 'true')
   inputs:
     SourceFolder: '$(Build.SourcesDirectory)/target'
     Contents: 'cms_api-1.0-SNAPSHOT-fat-tests.jar'
@@ -19,9 +39,50 @@ steps:
   displayName: 'Copy Artefact'  
 
 - task: PublishBuildArtifacts@1
+  condition: ne(variables['Automation'], 'true')
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'cms-automation-build'
     publishLocation: 'Container'
 
+- task: Bash@3
+  condition: eq(variables['Automation'], 'true')
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd $SOURCEDIR/target
+      java -Dkarate.env=$KARATEENV -Dkarate.options="$KARATEOPTS" -jar cms_api-1.0-SNAPSHOT-fat-tests.jar
+  env:
+    SOURCEDIR: $(Build.SourcesDirectory)
+    AUTOMATION: $(Automation)
+    KARATEENV: $(KarateEnv)
+    KARATEOPTS: $(KarateOpts)
+  displayName: 'Run Automation'
+
+- task: CopyFiles@2
+  condition: eq(variables['Automation'], 'true')
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/target/target'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+  displayName: 'Copy Automation Report Artifact'
+
+
+
+- task: PublishBuildArtifacts@1
+  condition: eq(variables['Automation'], 'true')
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'Automation Report'
+    publishLocation: 'Container'
+  displayName: 'Publish Automation Report Artifact'
+
+- task: PublishTestResults@2
+  displayName: 'Publish Test Results '
+  inputs:
+    testResultsFiles: |
+     **/karate-reports/*.xml
+     
+     
+    searchFolder: '$(Build.SourcesDirectory)/target/target'
 

@@ -2,15 +2,15 @@
   "ENV": "<=======================>",
   "pp": {
     "phone": "9945240313",
-    "DB_url": "jdbc:oracle:thin:@10.159........:1521:JCUPONDB",
-    "DB_username": "JIOCOUPONS",
-    "DB_password": "jiocoupons_123#",
+    "DB_url": "jdbc:oracle:thin:@10.144.8.119:1521:JIOCOUPN",
+    "DB_username": "COUPON_ADMIN",
+    "DB_password": "coupon_1234",
     "billAmount": 5000,
     "campaignCategoryToUpdate": 22,
     "masMerchantGroup": 1061,
-    "cmsMerchantGroup": 201,
-    "CMS_masid": "100001000073658",
-    "MAS_masId": "100001000069193",
+    "cmsMerchantGroup": 841,
+    "CMS_masid": "100001000232321",
+    "MAS_masId": "100001000068150",
     "articleId": "lol",
     "b2b_coupon_bulk_upload_path": "src/test/java/executables/helperFiles/files/b2b_bulk_uploads_pp",
     "b2b_coupon_bulk_edit_path": "src/test/java/executables/helperFiles/files/b2b_bulk_edit_pp",
@@ -763,39 +763,3243 @@
       ],
       "userGroup": "42"
     },
-    "data_merchant_branch": [
-      {
-        "merchant": "6820",
-        "shopNumber": "1",
-        "branchCode": "kormangala",
-        "branchName": "kormangala",
-        "zone": "kormangala",
-        "state": "kormangala",
-        "city": "kormangala",
-        "locality": "kormangala",
-        "address": "kormangala",
-        "landmark": "kormangala",
-        "pin": "560034",
-        "latitude": "12.9352",
-        "longitude": "77.6244",
-        "status": "approve"
+    "B2C_BxGy_parent_discountType__0001": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "873873773863",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773864",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_discountType_return__0001": {
+      "skuData1": [
+        {
+          "skuId": "873873773863",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773864",
+          "skuQty": 1,
+          "skuPrice": 9.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "873873773863",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2C_BxGy_parent_discountType_responseData__0001": {
+      "discount1": 9.5,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "873873773863",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4990.5,
+      "free_skuId1": "873873773864",
+      "minbillCondition": 300,
+      "billAmount_satisfyingcondition": 3000,
+      "couponId2": 258252,
+      "newBillAmount_satisfyingcondition": 2981.0,
+      "billAmount_notsatisfyingcondition": 180
+    },
+    "B2C_BxGy_parent_discountType_mrpc__0001.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "873873773813",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773814",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_discountType_responseData_mrpc__0001.4": {
+      "discount1": 38.0,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "873873773863",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4962.0,
+      "free_skuId1": "873873773814"
+    },
+    "B2C_BxGy_parent_paymentType__0001.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "873873773853",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773854",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_paymentType_responseData__0001.5": {
+      "discount1": 19.0,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "873873773853",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4981.0,
+      "free_skuId1": "873873773854"
+    },
+    "B2B_BxGy_parent_discountType__0001.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "873873773863",
+          "skuQty": 3
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_parent_responseData__0001.2": {
+      "discountAmount": 13.3,
+      "newBillAmount": 4986.7
+    },
+    "B2C_BxGy_parent_discountType__0001.6": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 339,
+      "skuData": [
+        {
+          "skuId": "1009988856",
+          "skuQty": 4,
+          "skuPrice": 80
+        },
+        {
+          "skuId": "1009988857",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_discountType_responseData__0001.6": {
+      "discount1": 9.5,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 80,
+      "skuId1": "1009988856",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 329.5,
+      "free_skuId1": "1009988857",
+      "minbillCondition": 300,
+      "billAmount_satisfyingcondition": 339.0,
+      "newBillAmount_satisfyingcondition": 329.5,
+      "billAmount_notsatisfyingcondition": 232.3,
+      "skuPrice1": 60
+    },
+    "B2C_BxGy_parent_paymentType__0001.9": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 319,
+      "skuData": [
+        {
+          "skuId": "1009988860",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "1009988861",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        },
+        {
+          "skuId": "1009988862",
+          "skuQty": 2,
+          "skuPrice": 150
+        }
+      ]
+    },
+    "B2C_BxGy_parent_paymentType_responseData__0001.9": {
+      "discount1": 19.0,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "1009988860",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 300,
+      "free_skuId1": "1009988861",
+      "minbillCondition": 300,
+      "billAmount_satisfyingcondition": 319,
+      "newBillAmount_satisfyingcondition": 300,
+      "billAmount_notsatisfyingcondition": 253.2,
+      "skuPrice3": 100
+    },
+    "B2B_BxGy_parent_discountType__0001.10": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "1009988856",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_parent_responseData__0001.10": {
+      "discountAmount": 6.65,
+      "newBillAmount": 4993.35
+    },
+    "B2C_BxGy_child_discountType__0002": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "873873773873",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773874",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_discountType_return__0002": {
+      "skuData1": [
+        {
+          "skuId": "873873773873",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773874",
+          "skuQty": 1,
+          "skuPrice": 9.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "873873773873",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2C_BxGy_child_discountType_responseData__0002": {
+      "discount1": 9.5,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "873873773873",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4990.5,
+      "discountedItems_skuId1": "873873773874",
+      "minbillCondition": 200,
+      "billAmount_satisfyingcondition": 3000,
+      "couponId2": 258259,
+      "newBillAmount_satisfyingcondition": 2981.0,
+      "billAmount_notsatisfyingcondition": 180
+    },
+    "B2B_BxGy_child_discountType__0002.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 9.5,
+          "skuId": "873873773874",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_child_responseData__0002.2": {
+      "discountAmount": 13.3,
+      "newBillAmount": 4986.7
+    },
+    "B2C_BxGy_child_discountType_mrpc__0002.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "873873773883",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773884",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_discountType_responseData_mrpc__0002.4": {
+      "discount1": 38.0,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "873873773873",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4962.0,
+      "free_skuId1": "873873773884"
+    },
+    "B2C_BxGy_child_paymentType__0002.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "873873773893",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773894",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_paymentType_responseData__0002.5": {
+      "discount1": 19.0,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "873873773893",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4981.0,
+      "free_skuId1": "873873773894"
+    },
+    "B2C_BxGy_child_discountType__0002.6": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 398.0,
+      "skuData": [
+        {
+          "skuId": "1009988858",
+          "skuQty": 6,
+          "skuPrice": 60
+        },
+        {
+          "skuId": "1009988859",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_discountType_responseData__0002.6": {
+      "discount1": 19,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 60,
+      "skuId1": "1009988858",
+      "quantity1": 3,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 379.0,
+      "discountedItems_skuId1": "1009988859",
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 278.0,
+      "skuPrice1": 40
+    },
+    "B2C_BxGy_child_paymentType__0002.9": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 341.8,
+      "skuData": [
+        {
+          "skuId": "1009988862",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "1009988863",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        },
+        {
+          "skuId": "1009988860",
+          "skuQty": 2,
+          "skuPrice": 150
+        }
+      ]
+    },
+    "B2C_BxGy_child_paymentType_responseData__0002.9": {
+      "discount1": 9.5,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "1009988862",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 332.3,
+      "free_skuId1": "1009988863",
+      "minbillCondition": 300
+    },
+    "B2B_BxGy_child_discountType__0002.10": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 9.5,
+          "skuId": "1009988859",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_child_responseData__0002.10": {
+      "discountAmount": 13.3,
+      "newBillAmount": 4986.7
+    },
+    "B2C_flat_discount_on_SKU_discountType__0041": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "1009977754",
+          "skuQty": 2,
+          "skuPrice": 11
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_responseData__0041": {
+      "discount1": 3.0,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 11.0,
+      "skuId1": "1009977754",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4997.0,
+      "discountedItems_skuId1": "1009977754",
+      "less_price": 2,
+      "less_price_discount": 1.99,
+      "less_price_newBillAmount": 4998.01,
+      "less_price_skuPrice": 0.01
+    },
+    "B2B_flat_discount_on_SKU_discountType__0041.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11,
+          "skuId": "1009977754",
+          "skuQty": 1
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_flat_discount_on_SKU_discountType_responseData__0041.2": {
+      "discountAmount": 2.1,
+      "newBillAmount": 4997.9
+    },
+    "B2C_flat_discount_on_SKU_discountType_mrpc__0041.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "100997775492",
+          "skuQty": 4,
+          "skuPrice": 11
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_mrpc_responseData__0041.4": {
+      "discount1": 11.98,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 11,
+      "skuId1": "100997775492",
+      "quantity1": 4,
+      "totalCouponsApplied1": 2,
+      "newBillAmount": 4988.02
+    },
+    "B2C_flat_discount_on_SKU_paymentType__0041.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "100997775491",
+          "skuQty": 1,
+          "skuPrice": 11
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_paymentType_responseData__0041.5": {
+      "discount1": 3.0,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 11,
+      "skuId1": "100997775491",
+      "discountedItems_skuId1": "100997775491",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4997.0,
+      "free_skuId1": "873873773854"
+    },
+    "B2C_flat_discount_on_SKU_discountType__0041.6": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 320,
+      "skuData": [
+        {
+          "skuId": "1009988854",
+          "skuQty": 4,
+          "skuPrice": 80
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_responseData__0041.6": {
+      "discount1": 5.99,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 80,
+      "skuId1": "1009988854",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 314.01,
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 280,
+      "skuPrice1": 70,
+      "returnqty": 2
+    },
+    "B2C_flat_discount_on_SKU_paymentType__0041.9": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 361.5,
+      "skuData": [
+        {
+          "skuId": "1009988864",
+          "skuQty": 3,
+          "skuPrice": 20.5
+        },
+        {
+          "skuId": "1110",
+          "skuQty": 2,
+          "skuPrice": 150
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_paymentType_responseData__0041.9": {
+      "discount1": 13.87,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 20.5,
+      "skuId1": "1009988864",
+      "quantity1": 3,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 347.63,
+      "minbillCondition": 300.76
+    },
+    "B2B_flat_discount_on_SKU_discountType__0041.10": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "1009988854",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_flat_discount_on_SKU_discountType_responseData__0041.10": {
+      "discountAmount": 4.19,
+      "newBillAmount": 4995.81
+    },
+    "B2C_flat_discount_on_SKU_discountType__0041.12": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 381,
+      "skuData": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977757",
+          "skuQty": 2,
+          "skuPrice": 55.5
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_responseData__0041.12": {
+      "discount1": 7.67,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "1009977755",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 373.33,
+      "discountedItems_skuId1": "1009977755",
+      "discountedItems_skuId2": "1009977757",
+      "discountedItems_skuId3": "1009977758",
+      "less_price": 2,
+      "less_price_discount": 1.99,
+      "less_price_newBillAmount": 4998.01,
+      "less_price_skuPrice": 0.01,
+      "skuData1": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977757",
+          "skuQty": 2,
+          "skuPrice": 55.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977757",
+          "skuQty": 2,
+          "skuPrice": 55.5
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_return__0041.12": {
+      "skuData1": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 1,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 1,
+          "skuPrice": 35
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 1,
+          "skuPrice": 100
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009977758",
+          "skuQty": 1,
+          "skuPrice": 35
+        }
+      ],
+      "skuData4": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_mrpc__0041.14": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 370,
+      "skuData": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977757",
+          "skuQty": 2,
+          "skuPrice": 55.5
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_mrpc_responseData__0041.14": {
+      "discount1": 15.34,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "1009977755",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 354.66,
+      "discountedItems_skuId1": "1009977755",
+      "discountedItems_skuId2": "1009977757",
+      "discountedItems_skuId3": "1009977758",
+      "less_price": 2,
+      "less_price_discount": 1.99,
+      "less_price_newBillAmount": 4998.01,
+      "less_price_skuPrice": 0.01,
+      "skuData1": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 3,
+          "skuPrice": 20
+        },
+        {
+          "skuId": "1009977757",
+          "skuQty": 3,
+          "skuPrice": 50
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 3,
+          "skuPrice": 20
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 3,
+          "skuPrice": 20
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 3,
+          "skuPrice": 20
+        },
+        {
+          "skuId": "1009977757",
+          "skuQty": 5,
+          "skuPrice": 50
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 3,
+          "skuPrice": 20
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_mrpc_return__0041.14": {
+      "skuData1": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 1,
+          "skuPrice": 20
+        },
+        {
+          "skuId": "1009977758",
+          "skuQty": 1,
+          "skuPrice": 20
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 1,
+          "skuPrice": 20
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009977758",
+          "skuQty": 1,
+          "skuPrice": 20
+        }
+      ],
+      "skuData4": [
+        {
+          "skuId": "1009977755",
+          "skuQty": 2,
+          "skuPrice": 20
+        },
+        {
+          "skuId": "1009977757",
+          "skuQty": 2,
+          "skuPrice": 50
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_paymentType__0041.15": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 381,
+      "skuData": [
+        {
+          "skuId": "1009977760",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977761",
+          "skuQty": 2,
+          "skuPrice": 55.5
+        },
+        {
+          "skuId": "1009977762",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_paymentType_responseData__0041.15": {
+      "discount1": 7.67,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "1009977755",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 373.33,
+      "discountedItems_skuId1": "1009977760",
+      "discountedItems_skuId2": "1009977761",
+      "discountedItems_skuId3": "1009977762",
+      "less_price": 2,
+      "less_price_discount": 1.99,
+      "less_price_newBillAmount": 4998.01,
+      "less_price_skuPrice": 0.01,
+      "skuData1": [
+        {
+          "skuId": "1009977760",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977761",
+          "skuQty": 2,
+          "skuPrice": 55.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009977760",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977762",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009977760",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977761",
+          "skuQty": 2,
+          "skuPrice": 55.5
+        },
+        {
+          "skuId": "1009977762",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_paymentType_return__0041.15": {
+      "skuData1": [
+        {
+          "skuId": "1009977760",
+          "skuQty": 1,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977761",
+          "skuQty": 1,
+          "skuPrice": 35
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009977760",
+          "skuQty": 1,
+          "skuPrice": 100
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009977761",
+          "skuQty": 1,
+          "skuPrice": 35
+        }
+      ],
+      "skuData4": [
+        {
+          "skuId": "1009977760",
+          "skuQty": 2,
+          "skuPrice": 100
+        },
+        {
+          "skuId": "1009977762",
+          "skuQty": 2,
+          "skuPrice": 35
+        }
+      ]
+    },
+    "B2B_flat_discount_on_SKU_discountType__0041.18": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "1009999770",
+          "skuQty": 2,
+          "skuPrice": 65
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_flat_discount_on_SKU_discountType_responseData__0041.18": {
+      "discountAmount": 5.37,
+      "newBillAmount": 4994.63
+    },
+    "B2C_flat_discount_on_SKU_discountType__0041.16": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 350,
+      "skuData": [
+        {
+          "skuId": "1009999770",
+          "skuQty": 5,
+          "skuPrice": 65
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_responseData__0041.16": {
+      "discount1": 15.34,
+      "discountType1": "FLAT_DISCOUNT_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "1009977755",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 334.66,
+      "discountedItems_skuId1": "1009999770",
+      "discountedItems_skuId2": "1009999771",
+      "discountedItems_skuId3": "1009999772",
+      "less_price": 2,
+      "less_price_discount": 1.99,
+      "less_price_newBillAmount": 4998.01,
+      "less_price_skuPrice": 0.01,
+      "skuData1": [
+        {
+          "skuId": "1009999770",
+          "skuQty": 4,
+          "skuPrice": 150
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009999772",
+          "skuQty": 4,
+          "skuPrice": 150
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009999770",
+          "skuQty": 5,
+          "skuPrice": 65
+        }
+      ]
+    },
+    "B2C_flat_discount_on_SKU_discountType_return__0041.16": {
+      "skuData1": [
+        {
+          "skuId": "1009999770",
+          "skuQty": 1,
+          "skuPrice": 65
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009999770",
+          "skuQty": 2,
+          "skuPrice": 65
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009999770",
+          "skuQty": 5,
+          "skuPrice": 65
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_discountType__0042": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "1000059234",
+          "skuQty": 1,
+          "skuPrice": 11
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_discountType_responseData__0042": {
+      "discount1": 0.99,
+      "discountType1": "PERCENTAGE_DISCOUNT_WITH_SKU",
+      "price1": 11.0,
+      "skuId1": "1000059234",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4999.01,
+      "discountedItems_skuId1": "1000059234"
+    },
+    "B2B_percentage_discount_on_SKU_discountType__0042.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11,
+          "skuId": "1000059234",
+          "skuQty": 1
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_percentage_discount_on_SKU_discountType_responseData__0042.2": {
+      "discountAmount": 0.69,
+      "newBillAmount": 4999.31
+    },
+    "B2C_percentage_discount_on_SKU_discountType_mrpc__0042.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "1000059291",
+          "skuQty": 2,
+          "skuPrice": 11
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_discountType_mrpc_responseData__0042.4": {
+      "discount1": 1.98,
+      "discountType1": "PERCENTAGE_DISCOUNT_WITH_SKU",
+      "price1": 11,
+      "skuId1": "1000059291",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4998.02,
+      "discountedItems_skuId1": "1000059291",
+      "maxPrice": 150
+    },
+    "B2C_percentage_discount_on_SKU_paymentType__0042.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "100005923491",
+          "skuQty": 1,
+          "skuPrice": 11
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_paymentType_responseData__0042.5": {
+      "discount1": 0.99,
+      "discountType1": "PERCENTAGE_DISCOUNT_WITH_SKU",
+      "price1": 11,
+      "skuId1": "100005923491",
+      "discountedItems_skuId1": "100005923491",
+      "quantity1": 1,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4999.01
+    },
+    "B2C_percentage_discount_on_SKU_discountType__0042.6": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 320,
+      "skuData": [
+        {
+          "skuId": "1009988855",
+          "skuQty": 4,
+          "skuPrice": 80
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_discountType_responseData__0042.6": {
+      "discount1": 10.72,
+      "discountType1": "PERCENTAGE_DISCOUNT_WITH_SKU",
+      "price1": 80,
+      "skuId1": "1009988855",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 309.28,
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 280,
+      "skuPrice1": 70
+    },
+    "B2C_percentage_discount_on_SKU_paymentType__0042.9": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 380,
+      "skuData": [
+        {
+          "skuId": "1009988865",
+          "skuQty": 2,
+          "skuPrice": 40
+        },
+        {
+          "skuId": "1110",
+          "skuQty": 2,
+          "skuPrice": 150
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_paymentType_responseData__0042.9": {
+      "discount1": 5.36,
+      "discountType1": "PERCENTAGE_DISCOUNT_WITH_SKU",
+      "price1": 40,
+      "skuId1": "1009988865",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 374.64,
+      "minbillCondition": 300
+    },
+    "B2B_percentage_discount_on_SKU_discountType__0042.10": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "1009988855",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_percentage_discount_on_SKU_discountType_responseData__0042.10": {
+      "discountAmount": 7.5,
+      "newBillAmount": 4992.5
+    },
+    "B2C_percentage_discount_on_SKU_discountType__0042.12": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 350,
+      "skuData": [
+        {
+          "skuId": "1009999775",
+          "skuQty": 5,
+          "skuPrice": 65
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_discountType_responseData__0042.12": {
+      "discount1": 54.86,
+      "discountType1": "PERCENTAGE_DISCOUNT_WITH_SKU",
+      "price1": 80,
+      "skuId1": "1009999775",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 295.14,
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 280,
+      "skuPrice1": 70,
+      "skuData1": [
+        {
+          "skuId": "1009999773",
+          "skuQty": 4,
+          "skuPrice": 150
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009999774",
+          "skuQty": 4,
+          "skuPrice": 150
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009999775",
+          "skuQty": 5,
+          "skuPrice": 65
+        }
+      ]
+    },
+    "B2C_percentage_discount_on_SKU_discountType_return__0042.12": {
+      "skuData1": [
+        {
+          "skuId": "1009999775",
+          "skuQty": 1,
+          "skuPrice": 65
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "1009999775",
+          "skuQty": 2,
+          "skuPrice": 65
+        }
+      ],
+      "skuData3": [
+        {
+          "skuId": "1009999775",
+          "skuQty": 5,
+          "skuPrice": 65
+        }
+      ]
+    },
+    "B2B_percentage_discount_on_SKU_discountType__0042.14": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "1009999775",
+          "skuQty": 2,
+          "skuPrice": 65
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_percentage_discount_on_SKU_discountType_responseData__0042.14": {
+      "discountAmount": 27.43,
+      "newBillAmount": 4972.57
+    },
+    "B2C_BxGy_parent_percentage_off_discountType__0007": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "773873773873",
+          "skuQty": 4,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "773873773874",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_percentage_off_discountType_prompter__0007": {
+      "skuData1": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "773873773873",
+            "skuQty": 2,
+            "skuPrice": 11.4
+          },
+          {
+            "skuId": "773873773874",
+            "skuQty": 1,
+            "skuPrice": 9.5
+          }
+        ]
       },
-      {
-        "merchant": "1083",
-        "shopNumber": "1",
-        "branchCode": "RCP",
-        "branchName": "RCP",
-        "zone": "RCP",
-        "state": "RCP",
-        "city": "RCP",
-        "locality": "RCP",
-        "address": "RCP",
-        "landmark": "RCP",
-        "pin": "760034",
-        "latitude": "19.1243",
-        "longitude": "73.0053",
-        "status": "approve"
+      "skuData2": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "773873773873",
+            "skuQty": 2,
+            "skuPrice": 11.4
+          }
+        ]
       }
-    ]
+    },
+    "B2C_BxGy_parent_percentage_off_discountType_return__0007": {
+      "skuData1": [
+        {
+          "skuId": "773873773873",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "773873773874",
+          "skuQty": 1,
+          "skuPrice": 9.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "773873773873",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2C_BxGy_parent_percentage_off_discountType_responseData__0007": {
+      "discount1": 0.95,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "873873773873",
+      "quantity1": 2,
+      "totalCouponsApplied1": 2,
+      "appliedQuantity1": 1,
+      "newBillAmount": 4999.05,
+      "discountedItems_skuId1": "773873773874"
+    },
+    "B2B_BxGy_parent_percentage_discountType__0007.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 9.5,
+          "skuId": "773873773873",
+          "skuQty": 3
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_parent_percentage_responseData__0007.2": {
+      "discountAmount": 1.33,
+      "newBillAmount": 4998.67
+    },
+    "B2C_BxGy_parent_percentage_off_discountType_mrpc__0007.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "88313773813",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "88313773814",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_percentage_off_discountType_responseData_mrpc__0007.4": {
+      "discount1": 8.018,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 34.2,
+      "skuId1": "88313773813",
+      "quantity1": 2,
+      "totalCouponsApplied1": 3,
+      "appliedQuantity1": 2,
+      "newBillAmount": 4991.982,
+      "discountedItems_skuId1": "88313773814",
+      "maxPrice": 500
+    },
+    "B2C_BxGy_parent_percentage_off_paymentType__0007.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "9138733893",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "9138733894",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_percentage_off_paymentType_responseData__0007.5": {
+      "discount1": 4.009,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "9138733893",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 4995.991,
+      "discountedItems_skuId1": "9138733894"
+    },
+    "B2C_BxGy_parent_percentage_off_paymentType__0007.10": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 358,
+      "skuData": [
+        {
+          "skuId": "773873773877",
+          "skuQty": 4,
+          "skuPrice": 80
+        },
+        {
+          "skuId": "773873773878",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_percentage_off_paymentType_responseData__0007.10": {
+      "discount1": 1.9,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "773873773877",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 356.1,
+      "discountedItems_skuId1": "773873773878",
+      "minbillCondition": 300
+    },
+    "B2C_BxGy_parent_percentage_off_discountType__0007.7": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 358,
+      "skuData": [
+        {
+          "skuId": "773873773875",
+          "skuQty": 4,
+          "skuPrice": 80
+        },
+        {
+          "skuId": "773873773876",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_percentage_off_discountType_return__0007.7": {
+      "skuData1": [
+        {
+          "skuId": "773873773875",
+          "skuQty": 1,
+          "skuPrice": 80
+        },
+        {
+          "skuId": "773873773876",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "773873773875",
+          "skuQty": 1,
+          "skuPrice": 80
+        }
+      ]
+    },
+    "B2C_BxGy_parent_percentage_off_discountType_responseData__0007.7": {
+      "discount1": 1.9,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "773873773875",
+      "quantity1": 3,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 356.1,
+      "discountedItems_skuId1": "773873773876",
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 198.0,
+      "skuPrice1": 40
+    },
+    "B2B_BxGy_parent_percentage_discountType__0007.11": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 9.5,
+          "skuId": "773873773875",
+          "skuQty": 3
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_parent_percentage_responseData__0007.11": {
+      "discountAmount": 1.33,
+      "newBillAmount": 4998.67
+    },
+    "B2C_BxGy_child_percentage_off_discountType__0008": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "763873773873",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "763873773874",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_percentage_off_discountType_prompter__0008": {
+      "skuData1": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "763873773873",
+            "skuQty": 2,
+            "skuPrice": 11.4
+          },
+          {
+            "skuId": "763873773874",
+            "skuQty": 1,
+            "skuPrice": 9.5
+          }
+        ]
+      },
+      "skuData2": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "763873773873",
+            "skuQty": 2,
+            "skuPrice": 11.4
+          }
+        ]
+      }
+    },
+    "B2C_BxGy_child_percentage_off_discountType_return__0008": {
+      "skuData1": [
+        {
+          "skuId": "763873773873",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "763873773874",
+          "skuQty": 1,
+          "skuPrice": 9.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "763873773873",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2C_BxGy_child_percentage_off_discountType_responseData__0008": {
+      "discount1": 0.95,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "763873773873",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4999.05,
+      "discountedItems_skuId1": "763873773874"
+    },
+    "B2B_BxGy_child_percentage_discountType__0008.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 9.5,
+          "skuId": "763873773874",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_child_percentage_responseData__0008.2": {
+      "discountAmount": 1.33,
+      "newBillAmount": 4998.67
+    },
+    "B2C_BxGy_child_percentage_off_discountType__0008.7": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 358,
+      "skuData": [
+        {
+          "skuId": "763873773875",
+          "skuQty": 4,
+          "skuPrice": 80
+        },
+        {
+          "skuId": "763873773876",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_percentage_off_discountType_return__0008.7": {
+      "skuData1": [
+        {
+          "skuId": "763873773875",
+          "skuQty": 1,
+          "skuPrice": 80
+        },
+        {
+          "skuId": "763873773876",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "763873773875",
+          "skuQty": 1,
+          "skuPrice": 80
+        }
+      ]
+    },
+    "B2C_BxGy_child_percentage_off_discountType_responseData__0008.7": {
+      "discount1": 1.9,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "763873773875",
+      "quantity1": 3,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 356.1,
+      "discountedItems_skuId1": "763873773876",
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 198.0,
+      "skuPrice1": 40
+    },
+    "B2C_BxGy_child_percentage_off_discountType_mrpc__0008.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "89313773813",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "89313773814",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_percentage_off_discountType_responseData_mrpc__0008.4": {
+      "discount1": 4.009,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "89313773813",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4995.991,
+      "discountedItems_skuId1": "89313773814",
+      "maxPrice": 500
+    },
+    "B2C_BxGy_child_percentage_off_paymentType__0008.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "9038733893",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "9038733894",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_percentage_off_paymentType_responseData__0008.5": {
+      "discount1": 4.009,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "9138733893",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 4995.991,
+      "discountedItems_skuId1": "9038733894"
+    },
+    "B2C_BxGy_child_percentage_off_paymentType__0008.10": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 358,
+      "skuData": [
+        {
+          "skuId": "9038733895",
+          "skuQty": 4,
+          "skuPrice": 80
+        },
+        {
+          "skuId": "9038733896",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_percentage_off_paymentType_responseData__0008.10": {
+      "discount1": 4.009,
+      "discountType1": "BXGY_AT_PERCENTAGE_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "9038733895",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 353.991,
+      "discountedItems_skuId1": "9038733896",
+      "minbillCondition": 300
+    },
+    "B2B_BxGy_child_percentage_discountType__0008.11": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 9.5,
+          "skuId": "763873773876",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_child_percentage_responseData__0008.11": {
+      "discountAmount": 1.33,
+      "newBillAmount": 4998.67
+    },
+    "B2C_BxGy_parent_flat_off_discountType__0009": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "163873773873",
+          "skuQty": 8,
+          "skuPrice": 111.4
+        },
+        {
+          "skuId": "163873773874",
+          "skuQty": 2,
+          "skuPrice": 99.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_flat_off_discountType_return__0009": {
+      "skuData1": [
+        {
+          "skuId": "163873773873",
+          "skuQty": 2,
+          "skuPrice": 111.4
+        },
+        {
+          "skuId": "163873773874",
+          "skuQty": 1,
+          "skuPrice": 99.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "163873773873",
+          "skuQty": 7,
+          "skuPrice": 111.4
+        }
+      ]
+    },
+    "B2C_BxGy_parent_flat_off_discountType_prompter__0009": {
+      "skuData1": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "163873773873",
+            "skuQty": 2,
+            "skuPrice": 111.4
+          },
+          {
+            "skuId": "163873773874",
+            "skuQty": 1,
+            "skuPrice": 99.5
+          }
+        ]
+      },
+      "skuData2": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "163873773873",
+            "skuQty": 2,
+            "skuPrice": 111.4
+          }
+        ]
+      }
+    },
+    "B2C_BxGy_parent_flat_off_discountType_responseData__0009": {
+      "discount1": 50.2,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "163873773873",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4949.8,
+      "discountedItems_skuId1": "163873773874",
+      "less_price": 20.5,
+      "less_price_discount": 40.98,
+      "less_price_newBillAmount": 4959.02,
+      "less_price_skuPrice": 0.01
+    },
+    "B2C_BxGy_parent_flat_off_discountType__0009.7": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 400,
+      "skuData": [
+        {
+          "skuId": "163873773875",
+          "skuQty": 4,
+          "skuPrice": 40
+        },
+        {
+          "skuId": "163873773876",
+          "skuQty": 4,
+          "skuPrice": 60
+        }
+      ]
+    },
+    "B2C_BxGy_parent_flat_off_discountType_responseData__0009.7": {
+      "discount1": 50.2,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "163873773875",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 349.8,
+      "discountedItems_skuId1": "163873773876",
+      "less_price": 20.5,
+      "less_price_discount": 40.98,
+      "less_price_newBillAmount": 4959.02,
+      "less_price_skuPrice": 0.01,
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 280,
+      "skuPrice1": 10
+    },
+    "B2C_BxGy_parent_flat_off_discountType_return__0009.7": {
+      "skuData1": [
+        {
+          "skuId": "163873773875",
+          "skuQty": 1,
+          "skuPrice": 40
+        },
+        {
+          "skuId": "163873773876",
+          "skuQty": 2,
+          "skuPrice": 60
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "163873773875",
+          "skuQty": 3,
+          "skuPrice": 40
+        }
+      ]
+    },
+    "B2B_BxGy_parent_flat_discountType__0009.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 99.5,
+          "skuId": "163873773873",
+          "skuQty": 4
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_parent_flat_responseData__0009.2": {
+      "discountAmount": 35.14,
+      "newBillAmount": 4964.86
+    },
+    "B2C_BxGy_parent_flat_off_discountType_mrpc__0009.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "89313773113",
+          "skuQty": 8,
+          "skuPrice": 111.4
+        },
+        {
+          "skuId": "89313773114",
+          "skuQty": 9,
+          "skuPrice": 99.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_flat_off_discountType_responseData_mrpc__0009.4": {
+      "discount1": 42.2,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "89313773113",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4957.8,
+      "discountedItems_skuId1": "89313773114"
+    },
+    "B2C_BxGy_parent_flat_off_paymentType__0009.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "9138733993",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "9138733994",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_flat_off_paymentType_responseData__0009.5": {
+      "discount1": 18.98,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "9138733893",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 4981.02,
+      "discountedItems_skuId1": "9138733994"
+    },
+    "B2C_BxGy_parent_flat_off_paymentType__0009.10": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 318,
+      "skuData": [
+        {
+          "skuId": "9138733995",
+          "skuQty": 4,
+          "skuPrice": 70
+        },
+        {
+          "skuId": "9138733996",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_parent_flat_off_paymentType_responseData__0009.10": {
+      "discount1": 18.98,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "9138733995",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 299.02,
+      "discountedItems_skuId1": "9138733996",
+      "minbillCondition": 300
+    },
+    "B2B_BxGy_parent_flat_discountType__0009.11": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 99.5,
+          "skuId": "163873773875",
+          "skuQty": 4
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_parent_flat_responseData__0009.11": {
+      "discountAmount": 35.14,
+      "newBillAmount": 4964.86
+    },
+    "B2C_BxGy_child_flat_off_discountType__0010": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "263873773873",
+          "skuQty": 8,
+          "skuPrice": 111.4
+        },
+        {
+          "skuId": "263873773874",
+          "skuQty": 9,
+          "skuPrice": 90.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_flat_off_discountType_prompter__0010": {
+      "skuData1": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "263873773873",
+            "skuQty": 2,
+            "skuPrice": 111.4
+          },
+          {
+            "skuId": "263873773874",
+            "skuQty": 1,
+            "skuPrice": 90.5
+          }
+        ]
+      },
+      "skuData2": {
+        "masId": "100001000071385",
+        "phone": "9945240313",
+        "billAmount": 5000,
+        "skuData": [
+          {
+            "skuId": "263873773873",
+            "skuQty": 2,
+            "skuPrice": 111.4
+          }
+        ]
+      }
+    },
+    "B2C_BxGy_child_flat_off_discountType_return__0010": {
+      "skuData1": [
+        {
+          "skuId": "263873773873",
+          "skuQty": 2,
+          "skuPrice": 111.4
+        },
+        {
+          "skuId": "263873773874",
+          "skuQty": 1,
+          "skuPrice": 90.5
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "263873773873",
+          "skuQty": 6,
+          "skuPrice": 111.4
+        }
+      ]
+    },
+    "B2C_BxGy_child_flat_off_discountType_responseData__0010": {
+      "discount1": 50.2,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "263873773873",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4949.8,
+      "discountedItems_skuId1": "263873773874",
+      "less_price": 20.5,
+      "less_price_discount": 40.98,
+      "less_price_newBillAmount": 4959.02,
+      "less_price_skuPrice": 0.01
+    },
+    "B2C_BxGy_child_flat_off_discountType__0010.7": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 336,
+      "skuData": [
+        {
+          "skuId": "263873773875",
+          "skuQty": 4,
+          "skuPrice": 60
+        },
+        {
+          "skuId": "263873773876",
+          "skuQty": 4,
+          "skuPrice": 24
+        }
+      ]
+    },
+    "B2C_BxGy_child_flat_off_discountType_responseData__0010.7": {
+      "discount1": 47.98,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "263873773875",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 288.02,
+      "discountedItems_skuId1": "263873773876",
+      "less_price": 20.5,
+      "less_price_discount": 40.98,
+      "less_price_newBillAmount": 4959.02,
+      "less_price_skuPrice": 0.01,
+      "minbillCondition": 300,
+      "billAmount_notsatisfyingcondition": 136,
+      "skuPrice1": 10
+    },
+    "B2C_BxGy_child_flat_off_discountType_return__0010.7": {
+      "skuData1": [
+        {
+          "skuId": "263873773875",
+          "skuQty": 1,
+          "skuPrice": 60
+        },
+        {
+          "skuId": "263873773876",
+          "skuQty": 2,
+          "skuPrice": 24
+        }
+      ],
+      "skuData2": [
+        {
+          "skuId": "263873773875",
+          "skuQty": 1,
+          "skuPrice": 60
+        }
+      ]
+    },
+    "B2B_BxGy_child_flat_discountType__0010.2": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 99.5,
+          "skuId": "263873773874",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_child_flat_responseData__0010.2": {
+      "discountAmount": 10.54,
+      "newBillAmount": 4989.46
+    },
+    "B2C_BxGy_child_flat_off_discountType_mrpc__0010.4": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "89313773913",
+          "skuQty": 8,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "89313773914",
+          "skuQty": 9,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_flat_off_discountType_responseData_mrpc__0010.4": {
+      "discount1": 37.96,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "89313773913",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "newBillAmount": 4962.04,
+      "discountedItems_skuId1": "89313773914"
+    },
+    "B2C_BxGy_child_flat_off_paymentType__0010.5": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "9098733893",
+          "skuQty": 88,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "9098733894",
+          "skuQty": 99,
+          "skuPrice": 9.5
+        }
+      ]
+    },
+    "B2C_BxGy_child_flat_off_paymentType_responseData__0010.5": {
+      "discount1": 18.98,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "9138733893",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 4981.02,
+      "discountedItems_skuId1": "9098733894"
+    },
+    "B2C_BxGy_child_flat_off_paymentType__0010.10": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 360,
+      "skuData": [
+        {
+          "skuId": "9098733895",
+          "skuQty": 4,
+          "skuPrice": 60
+        },
+        {
+          "skuId": "9098733896",
+          "skuQty": 4,
+          "skuPrice": 30
+        }
+      ]
+    },
+    "B2C_BxGy_child_flat_off_paymentType_responseData__0010.10": {
+      "discount1": 21.1,
+      "discountType1": "BXGY_AT_FLAT_DISCOUNT",
+      "price1": 11.4,
+      "skuId1": "9098733895",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 338.9,
+      "discountedItems_skuId1": "9098733896",
+      "minbillCondition": 300
+    },
+    "B2B_BxGy_child_flat_discountType__0010.11": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 99.5,
+          "skuId": "263873773876",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_BxGy_child_flat_responseData__0010.11": {
+      "discountAmount": 10.08,
+      "newBillAmount": 4989.92
+    },
+    "B2B_SKU_AT_FIXED_PRICE_coupon_redemption__0025": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212226",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212227",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212228",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_SKU_AT_FIXED_PRICE_coupon_redemption_responseData__0025": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 33.4,
+      "newBillAmount_mbv": 417.3,
+      "discountAmount_mbv_off": 57.1,
+      "newBillAmount_mbv_off": 393.6,
+      "quantity_811143212228": 3,
+      "discount_811143212228": 23.7,
+      "quantity_811143212227": 3,
+      "discount_811143212227": 9.4,
+      "quantity_811143212226": 4,
+      "discount_811143212226": 2.6,
+      "discountType": "SKU_AT_FIXED_PRICE",
+      "discountAmount": 57.1,
+      "newBillAmount": 4942.900000000001,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "less_price": 8.4,
+      "sku_quantity_per_unit_811143212226": 2,
+      "sku_quantity_per_unit_811143212228": 3,
+      "sku_quantity_per_unit_811143212227": 1,
+      "couponQty_mr_811143212228": 1,
+      "couponQty_mr_811143212227": 3,
+      "couponQty_mr_811143212226": 2,
+      "sku_quantity_per_unit_mr_811143212228": 3,
+      "sku_quantity_per_unit_mr_811143212227": 1,
+      "sku_quantity_per_unit_mr_811143212226": 2,
+      "discount_mr_811143212226": 5.2,
+      "discount_mr_811143212228": 23.7,
+      "discount_mr_811143212227": 28.200000000000003
+    },
+    "B2B_SKU_AT_FIXED_PRICE_coupon_redemption__0025.10": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212226",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212227",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212228",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "8111432122126",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "8111432122127",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "8111432122128",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212229",
+          "skuQty": 2,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 110.4,
+          "skuId": "811143212230",
+          "skuQty": 2,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "segment": "ALL",
+      "masId": "100001000071385"
+    },
+    "B2B_SKU_AT_FIXED_PRICE_coupon_redemption_responseData__0025.10": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 33.4,
+      "newBillAmount_mbv": 417.3,
+      "discountAmount_mbv_c": 107.48,
+      "newBillAmount_mbv_c": 343.22,
+      "discountAmount_mbv_off": 57.1,
+      "newBillAmount_mbv_off": 393.6,
+      "quantity_811143212228": 3,
+      "discount_811143212228": 23.7,
+      "quantity_811143212227": 3,
+      "discount_811143212227": 9.4,
+      "quantity_811143212226": 4,
+      "discount_811143212226": 2.6,
+      "quantity_8111432122128": 3,
+      "discount_8111432122128": 23.7,
+      "quantity_8111432122127": 3,
+      "discount_8111432122127": 9.4,
+      "quantity_8111432122126": 4,
+      "discount_8111432122126": 2.6,
+      "discountType": "SKU_AT_FIXED_PRICE",
+      "discountAmount": 131.18,
+      "newBillAmount": 4868.8200000000015,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "less_price": 8.4,
+      "sku_quantity_per_unit_811143212226": 2,
+      "sku_quantity_per_unit_811143212228": 3,
+      "sku_quantity_per_unit_811143212227": 1,
+      "couponQty_mr_811143212228": 1,
+      "couponQty_mr_811143212227": 3,
+      "couponQty_mr_811143212226": 2,
+      "sku_quantity_per_unit_mr_811143212228": 3,
+      "sku_quantity_per_unit_mr_811143212227": 1,
+      "sku_quantity_per_unit_mr_811143212226": 2,
+      "discount_mr_811143212226": 5.2,
+      "discount_mr_811143212228": 23.7,
+      "discount_mr_811143212227": 28.200000000000003
+    },
+    "B2B_SKU_AT_FIXED_PRICE_coupon_redemption_vertical__0025.13": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212228",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212229",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 110.4,
+          "skuId": "811143212230",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "segment": "HORECA",
+      "masId": "100001000071385"
+    },
+    "B2B_PERCENT_DISCOUNT_coupon_redemption__0029": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212226",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212227",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212228",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_PERCENT_DISCOUNT_coupon_redemption_responseData__0029": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 5.29,
+      "newBillAmount_mbv": 445.4099999999999,
+      "discountAmount_mbv_off": 6.49,
+      "newBillAmount_mbv_off": 444.2099999999999,
+      "quantity_711143212228": 3,
+      "quantity_711143212227": 3,
+      "quantity_711143212226": 4,
+      "discount_711143212228": 1.2,
+      "discount_711143212227": 0.23,
+      "discount_711143212226": 2.3,
+      "discountType": "PERCENT_DISCOUNT",
+      "discountAmount": 6.49,
+      "newBillAmount": 4993.510000000001,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "sku_quantity_per_unit_711143212228": 3,
+      "sku_quantity_per_unit_711143212227": 1,
+      "sku_quantity_per_unit_711143212226": 2,
+      "couponQty_mr_711143212228": 1,
+      "couponQty_mr_711143212227": 3,
+      "couponQty_mr_711143212226": 2,
+      "sku_quantity_per_unit_mr_711143212228": 3,
+      "sku_quantity_per_unit_mr_711143212227": 1,
+      "sku_quantity_per_unit_mr_711143212226": 2,
+      "discount_mr_711143212228": 1.2,
+      "discount_mr_711143212227": 0.6900000000000001,
+      "discount_mr_711143212226": 4.6
+    },
+    "B2B_PERCENT_DISCOUNT_coupon_redemption__0029.10": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212226",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212227",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212228",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "7111432122126",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "7111432122127",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "7111432122128",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212229",
+          "skuQty": 2,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212230",
+          "skuQty": 2,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "segment": "ALL",
+      "masId": "100001000071385"
+    },
+    "B2B_PERCENT_DISCOUNT_coupon_redemption_responseData__0029.10": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 5.29,
+      "newBillAmount_mbv": 445.4099999999999,
+      "discountAmount_mbv_c": 57.34,
+      "newBillAmount_mbv_c": 393.3599999999999,
+      "discountAmount_mbv_off": 6.49,
+      "newBillAmount_mbv_off": 444.2099999999999,
+      "quantity_711143212228": 3,
+      "quantity_711143212227": 3,
+      "quantity_711143212226": 4,
+      "discount_711143212228": 1.2,
+      "discount_711143212227": 0.23,
+      "discount_711143212226": 2.3,
+      "quantity_7111432122128": 3,
+      "quantity_7111432122127": 3,
+      "quantity_7111432122126": 4,
+      "discount_7111432122128": 1.2,
+      "discount_7111432122127": 0.23,
+      "discount_7111432122126": 2.3,
+      "discountType": "PERCENT_DISCOUNT",
+      "discountAmount": 38.06,
+      "newBillAmount": 4961.940000000002,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "sku_quantity_per_unit_711143212228": 3,
+      "sku_quantity_per_unit_711143212227": 1,
+      "sku_quantity_per_unit_711143212226": 2,
+      "couponQty_mr_711143212228": 1,
+      "couponQty_mr_711143212227": 3,
+      "couponQty_mr_711143212226": 2,
+      "sku_quantity_per_unit_mr_711143212228": 3,
+      "sku_quantity_per_unit_mr_711143212227": 1,
+      "sku_quantity_per_unit_mr_711143212226": 2,
+      "discount_mr_711143212228": 1.2,
+      "discount_mr_711143212227": 0.6900000000000001,
+      "discount_mr_711143212226": 4.6
+    },
+    "B2B_PERCENT_DISCOUNT_ON_SKU_coupon_redemption_vertical__0029.13": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212228",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212229",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "711143212230",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "segment": "ALL",
+      "masId": "100001000071385"
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0036": {
+      "masId": "100001000071385",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "811143212221",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212222",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212223",
+          "articleId": "lol",
+          "skuQty": 9,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption_responseData__0036": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 4.3,
+      "newBillAmount_mbv": 446.3999999999999,
+      "discountAmount_mbv_off": 13.3,
+      "newBillAmount_mbv_off": 437.3999999999999,
+      "quantity_811143212223": 9,
+      "quantity_811143212222": 2,
+      "quantity_811143212221": 2,
+      "discount_811143212221": 2.1,
+      "discount_811143212222": 1.1,
+      "discount_811143212223": 3,
+      "discountType": "FLAT_DISCOUNT_ON_SKU",
+      "discountAmount": 13.3,
+      "newBillAmount": 4986.699999999999,
+      "discountAmount_lessPrice": 12.96,
+      "newBillAmount_lessPrice": 4987.040000000001,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "less_price": 1,
+      "sku_quantity_per_unit_811143212223": 3,
+      "sku_quantity_per_unit_811143212222": 1,
+      "sku_quantity_per_unit_811143212221": 2,
+      "couponQty_mr_811143212223": 3,
+      "couponQty_mr_811143212222": 2,
+      "couponQty_mr_811143212221": 1,
+      "sku_quantity_per_unit_mr_811143212223": 3,
+      "sku_quantity_per_unit_mr_811143212222": 1,
+      "sku_quantity_per_unit_mr_811143212221": 2,
+      "discount_mr_811143212223": 9,
+      "discount_mr_811143212222": 2.2,
+      "discount_mr_811143212221": 2.1,
+      "skuData": [
+        {
+          "skuId": "811143212221",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212222",
+          "articleId": "lol",
+          "skuQty": 1,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212223",
+          "articleId": "lol",
+          "skuQty": 9,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0036.12": {
+      "masId": "100001000071385",
+      "billAmount": 5000,
+      "segment": "all",
+      "skuData": [
+        {
+          "skuId": "811143212221",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212222",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212223",
+          "articleId": "lol",
+          "skuQty": 9,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "8111432122121",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "8111432122122",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "8111432122123",
+          "articleId": "lol",
+          "skuQty": 9,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212219",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "811143212220",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption_responseData__0036.12": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 4.3,
+      "newBillAmount_mbv": 446.3999999999999,
+      "discountAmount_mbv_c": 40.38,
+      "newBillAmount_mbv_c": 410.3199999999999,
+      "discountAmount_mbv_off": 13.3,
+      "newBillAmount_mbv_off": 437.3999999999999,
+      "quantity_811143212223": 9,
+      "quantity_811143212222": 2,
+      "quantity_811143212221": 2,
+      "discount_811143212221": 2.1,
+      "discount_811143212222": 1.1,
+      "discount_811143212223": 3,
+      "quantity_8111432122123": 9,
+      "quantity_8111432122122": 2,
+      "quantity_8111432122121": 2,
+      "discount_8111432122121": 2.1,
+      "discount_8111432122122": 1.1,
+      "discount_8111432122123": 3,
+      "discountType": "FLAT_DISCOUNT_ON_SKU",
+      "discountAmount": 72.16,
+      "newBillAmount": 4927.8399999999965,
+      "discountAmount_lessPrice": 12.96,
+      "newBillAmount_lessPrice": 4987.040000000001,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "less_price": 1,
+      "sku_quantity_per_unit_811143212223": 3,
+      "sku_quantity_per_unit_811143212222": 1,
+      "sku_quantity_per_unit_811143212221": 2,
+      "couponQty_mr_811143212223": 3,
+      "couponQty_mr_811143212222": 2,
+      "couponQty_mr_811143212221": 1,
+      "sku_quantity_per_unit_mr_811143212223": 3,
+      "sku_quantity_per_unit_mr_811143212222": 1,
+      "sku_quantity_per_unit_mr_811143212221": 2,
+      "discount_mr_811143212223": 9,
+      "discount_mr_811143212222": 2.2,
+      "discount_mr_811143212221": 2.1
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption_vertical__0036.15": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 110.4,
+          "skuId": "811143212219",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212220",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "811143212223",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "segment": "ALL",
+      "masId": "100001000071385"
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_flash_coupon__0037": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 78,
+          "skuId": "1634204203873",
+          "skuQty": 2
+        }
+      ],
+      "masId": "100001000063836"
+    },
+    "B2C_BxGy_combined_partial_return__0038": {
+      "masId": "100001000071385",
+      "phone": "9945240313",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "873873773863",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773864",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        },
+        {
+          "skuId": "873873773873",
+          "skuQty": 3,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "873873773874",
+          "skuQty": 2,
+          "skuPrice": 9.5
+        },
+        {
+          "skuId": "773873773873",
+          "skuQty": 4,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "773873773874",
+          "skuQty": 4,
+          "skuPrice": 9.5
+        },
+        {
+          "skuId": "163873773873",
+          "skuQty": 8,
+          "skuPrice": 111.4
+        },
+        {
+          "skuId": "163873773874",
+          "skuQty": 2,
+          "skuPrice": 99.5
+        },
+        {
+          "skuId": "263873773873",
+          "skuQty": 8,
+          "skuPrice": 111.4
+        },
+        {
+          "skuId": "263873773874",
+          "skuQty": 9,
+          "skuPrice": 90.5
+        }
+      ]
+    },
+    "B2C_BxGy_combined_partial_return_responseData__0038": {
+      "discount1": 4.009,
+      "discountType1": "FREE_SKU_WITH_SKU",
+      "price1": 11.4,
+      "skuId1": "9138733893",
+      "quantity1": 2,
+      "totalCouponsApplied1": 1,
+      "appliedQuantity1": 1,
+      "newBillAmount": 4995.991,
+      "discountedItems_skuId1": "9098733894"
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0043": {
+      "masId": "100001000071385",
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "skuId": "833343212221",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "833343212222",
+          "articleId": "lol",
+          "skuQty": 2,
+          "skuPrice": 11.4
+        },
+        {
+          "skuId": "833343212223",
+          "articleId": "lol",
+          "skuQty": 9,
+          "skuPrice": 11.4
+        }
+      ]
+    },
+    "B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption_responseData__0043": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 4.3,
+      "newBillAmount_mbv": 446.3999999999999,
+      "quantity_833343212223": 9,
+      "quantity_833343212222": 2,
+      "quantity_833343212221": 2,
+      "discount_833343212221": 2.1,
+      "discount_833343212222": 1.1,
+      "discount_833343212223": 3,
+      "discountType": "FLAT_DISCOUNT_ON_SKU",
+      "discountAmount": 13.3,
+      "newBillAmount": 4986.699999999999,
+      "discountAmount_lessPrice": 12.96,
+      "newBillAmount_lessPrice": 4987.040000000001,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "less_price": 1,
+      "sku_quantity_per_unit_833343212223": 3,
+      "sku_quantity_per_unit_833343212222": 1,
+      "sku_quantity_per_unit_833343212221": 2,
+      "couponQty_mr_833343212223": 3,
+      "couponQty_mr_833343212222": 2,
+      "couponQty_mr_833343212221": 1,
+      "sku_quantity_per_unit_mr_833343212223": 3,
+      "sku_quantity_per_unit_mr_833343212222": 1,
+      "sku_quantity_per_unit_mr_833343212221": 2,
+      "discount_mr_833343212223": 9,
+      "discount_mr_833343212222": 2.2,
+      "discount_mr_833343212221": 2.1
+    },
+    "B2B_PERCENT_DISCOUNT_coupon_redemption__0043": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "733343212226",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "733343212227",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "733343212228",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_PERCENT_DISCOUNT_coupon_redemption_responseData__0043": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 5.29,
+      "newBillAmount_mbv": 445.4099999999999,
+      "quantity_733343212228": 3,
+      "quantity_733343212227": 3,
+      "quantity_733343212226": 4,
+      "discount_733343212228": 1.2,
+      "discount_733343212227": 0.23,
+      "discount_733343212226": 2.3,
+      "discountType": "PERCENT_DISCOUNT",
+      "discountAmount": 6.49,
+      "newBillAmount": 4993.510000000001,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "sku_quantity_per_unit_733343212228": 3,
+      "sku_quantity_per_unit_733343212227": 1,
+      "sku_quantity_per_unit_733343212226": 2,
+      "couponQty_mr_733343212228": 1,
+      "couponQty_mr_733343212227": 3,
+      "couponQty_mr_733343212226": 2,
+      "sku_quantity_per_unit_mr_733343212228": 3,
+      "sku_quantity_per_unit_mr_733343212227": 1,
+      "sku_quantity_per_unit_mr_733343212226": 2,
+      "discount_mr_733343212228": 1.2,
+      "discount_mr_733343212227": 0.6900000000000001,
+      "discount_mr_733343212226": 4.6
+    },
+    "B2B_SKU_AT_FIXED_PRICE_coupon_redemption__0043": {
+      "billAmount": 5000,
+      "skuData": [
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "833343212226",
+          "skuQty": 4,
+          "categories": [
+            "80103"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "833343212227",
+          "skuQty": 3,
+          "categories": [
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        },
+        {
+          "articleId": "lol",
+          "skuPrice": 11.4,
+          "skuId": "833343212228",
+          "skuQty": 3,
+          "categories": [
+            "80103",
+            "80102"
+          ],
+          "brandId": "test",
+          "clusterId": "jamshedpur"
+        }
+      ],
+      "masId": "100001000071385"
+    },
+    "B2B_SKU_AT_FIXED_PRICE_coupon_redemption_responseData__0043": {
+      "billAmount_mbv": 450.7,
+      "discountAmount_mbv": 33.4,
+      "newBillAmount_mbv": 417.3,
+      "quantity_833343212228": 3,
+      "discount_833343212228": 23.7,
+      "quantity_833343212227": 3,
+      "discount_833343212227": 9.4,
+      "quantity_833343212226": 4,
+      "discount_833343212226": 2.6,
+      "discountType": "SKU_AT_FIXED_PRICE",
+      "discountAmount": 57.1,
+      "newBillAmount": 4942.900000000001,
+      "couponQty": 0,
+      "quantity": 1,
+      "price": 11.4,
+      "less_price": 8.4,
+      "sku_quantity_per_unit_833343212226": 2,
+      "sku_quantity_per_unit_833343212228": 3,
+      "sku_quantity_per_unit_833343212227": 1,
+      "couponQty_mr_833343212228": 1,
+      "couponQty_mr_833343212227": 3,
+      "couponQty_mr_833343212226": 2,
+      "sku_quantity_per_unit_mr_833343212228": 3,
+      "sku_quantity_per_unit_mr_833343212227": 1,
+      "sku_quantity_per_unit_mr_833343212226": 2,
+      "discount_mr_833343212226": 5.2,
+      "discount_mr_833343212228": 23.7,
+      "discount_mr_833343212227": 28.200000000000003
+    }
   }
 }

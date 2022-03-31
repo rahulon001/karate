@@ -15,7 +15,7 @@ import org.junit.Test;
 public class TestRunner {
     @Test
     public void testParallel() {
-        Results results = Runner.path("classpath:executables/coupons/")
+        Results results = Runner.path("classpath:executables/")
                 .outputCucumberJson(true)
                 .outputJunitXml(true)
                 .tags("~@ignore",

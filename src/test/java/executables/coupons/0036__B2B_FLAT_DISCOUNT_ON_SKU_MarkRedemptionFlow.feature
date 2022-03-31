@@ -15,6 +15,16 @@ Feature: B2B_FLAT_DISCOUNT_ON_SKU MarkRedemptionFlow __0036
     * set headerJson.Content-Type = 'application/json'
     * set headerJson.x-client-type = 'mpos'
     * def masid = apiComponents['CMS_masid']
+    #Replacemnt API call
+    * def sku_id1 = apiComponents["B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0036"].skuData[0].skuId
+    * def result = callonce read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id1)}
+    * def coupon_count_beforeHold1 = result.response.skus[0].coupons[0].totalCouponCodes
+    * def sku_id2 = apiComponents["B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0036"].skuData[1].skuId
+    * def result = callonce read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id2)}
+    * def coupon_count_beforeHold2 = result.response.skus[0].coupons[0].totalCouponCodes
+    * def sku_id3 = apiComponents["B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0036"].skuData[2].skuId
+    * def result = callonce read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id3)}
+    * def coupon_count_beforeHold3 = result.response.skus[0].coupons[0].totalCouponCodes
  # redemption count
     * def redeem_quantity_811143212221 = db.readRows("SELECT QUANTITY FROM B2B_COUPON_REDEMPTION WHERE B2B_COUPON_ID IN (SELECT ID FROM B2B_COUPON bbc WHERE SKU_ID IN (\'" +811143212221+ "\')) and masid=\'" +masid+ "\'")
     * def redeem_quantity_811143212223 = db.readRows("SELECT QUANTITY FROM B2B_COUPON_REDEMPTION WHERE B2B_COUPON_ID IN (SELECT ID FROM B2B_COUPON bbc WHERE SKU_ID IN (\'" +811143212223+ "\')) and masid=\'" +masid+ "\'")
@@ -94,6 +104,17 @@ Feature: B2B_FLAT_DISCOUNT_ON_SKU MarkRedemptionFlow __0036
     * match parseInt(redeem_count_811143212223_c[0].REDEEM_COUNT) == parseInt(redeem_count_811143212223[0].REDEEM_COUNT + 3)
     * match parseInt(redeem_count_811143212222_c[0].REDEEM_COUNT) == parseInt(redeem_count_811143212222[0].REDEEM_COUNT + 2)
 
+     #Replacemnt API call
+    * def result = call read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id1)}
+    * def coupon_count_afterHold1 = result.response.skus[0].coupons[0].totalCouponCodes
+    * def result = call read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id2)}
+    * def coupon_count_afterHold2 = result.response.skus[0].coupons[0].totalCouponCodes
+    * def result = call read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id3)}
+    * def coupon_count_afterHold3 = result.response.skus[0].coupons[0].totalCouponCodes
+
+    * match coupon_count_afterHold1 == coupon_count_beforeHold1
+    * match coupon_count_afterHold2 == coupon_count_beforeHold2
+    * match coupon_count_afterHold3 == coupon_count_beforeHold3
 
   Scenario: B2B_FLAT_DISCOUNT_ON_SKU checkout Mark Redemption Flow __0036.
      # redemption count
@@ -147,6 +168,18 @@ Feature: B2B_FLAT_DISCOUNT_ON_SKU MarkRedemptionFlow __0036
 #   * match parseInt(redeem_quantity_811143212221_c[0].QUANTITY) == parseInt(redeem_quantity_811143212221[0].QUANTITY + 1)
 #   * match parseInt(redeem_quantity_811143212223_c[0].QUANTITY) == parseInt(redeem_quantity_811143212223[0].QUANTITY + 3)
 #   * match parseInt(redeem_quantity_811143212222_c[0].QUANTITY) == parseInt(redeem_quantity_811143212222[0].QUANTITY + 2)
+
+   #Replacemnt API call
+    * def result = call read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id1)}
+    * def coupon_count_afterCheckout1 = result.response.skus[0].coupons[0].totalCouponCodes
+    * def result = call read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id2)}
+    * def coupon_count_afterCheckout2 = result.response.skus[0].coupons[0].totalCouponCodes
+    * def result = call read("support.feature@ReplacementAPI") {requestHeader: #(headerJson) , skuID: #(sku_id3)}
+    * def coupon_count_afterCheckout3 = result.response.skus[0].coupons[0].totalCouponCodes
+
+    * match coupon_count_afterCheckout1 == coupon_count_beforeHold1 - 1
+    * match coupon_count_afterCheckout2 == coupon_count_beforeHold2 - 2
+    * match coupon_count_afterCheckout3 == coupon_count_beforeHold3 - 3
 
   Scenario: B2B_FLAT_DISCOUNT_ON_SKU delivered Mark Redemption Flow __0036.
     * header x-client-type = "hybris"

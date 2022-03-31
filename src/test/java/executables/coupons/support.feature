@@ -207,6 +207,42 @@ Feature: All supporting scenarios
     When method get
     Then status 200
 
+  @B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption_two_merchants
+  Scenario: Perform B2B_FLAT_DISCOUNT_ON_SKU cart redemption__0036
+    * def body = apiComponents["B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0043"]
+    * set body.skuData[*].skuPrice = skuPrice
+    * set body.billAmount = billAmount
+    * set body.masId = masid
+    Given path '/coupons/v1/coupons/merchant/fc/coupon-codes'
+    And headers requestHeader
+    And request body
+    When method post
+    Then status 200
+
+  @ReplacementAPI
+  Scenario: To validate Replacement API
+    * def masid = apiComponents['CMS_masid']
+    * def body =
+      """
+          {
+          "start" : 0,
+          "end" : 1000,
+          "sku": "sku-id"
+          }
+      """
+    * set body.sku = skuID
+    Given path '/coupons/v1/coupons/merchant/'+masid+'/fc/coupons'
+    And headers requestHeader
+    And request body
+    When method post
+    Then status 200
+
+  @switch_on_features_1
+  Scenario: switching on the features from configuration table.
+    * def enable_promotion = db.updateRow("UPDATE CONFIGURATION SET CONFIG_VALUE = \'true\' WHERE CONFIG_NAME = \'promotion.enabled\'")
+    * def enable_voucher = db.updateRow("UPDATE CONFIGURATION SET CONFIG_VALUE = \'true\' WHERE CONFIG_NAME = \'voucher.enabled\'")
+    * def enable_prompter = db.updateRow("UPDATE CONFIGURATION SET CONFIG_VALUE = \'true\' WHERE CONFIG_NAME = \'prompter.enabled\'")
+
   @switch_on_features
   Scenario: switching on the features from configuration table.
      * def enable_promotion = db.updateRow("UPDATE CONFIGURATION SET CONFIG_VALUE = \'true\' WHERE CONFIG_NAME = \'promotion.enabled\'")
@@ -262,3 +298,10 @@ Feature: All supporting scenarios
   @switch_off_features_b2c
   Scenario: switching on the features from configuration table.
     * def enable_prompter = db.updateRow("UPDATE CONFIGURATION SET CONFIG_VALUE = \'false\' WHERE CONFIG_NAME = \'b2c.prompter.enabled\'")
+
+  @activate_coupons
+  Scenario: activate hold coupons b2b.
+    Given path '/coupons/v1/coupons/merchant/fc/resetGetEligibleTxn'
+    When method post
+    Then status 200
+

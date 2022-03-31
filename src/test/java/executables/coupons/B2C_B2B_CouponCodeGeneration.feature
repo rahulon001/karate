@@ -987,6 +987,19 @@ Feature: Generate B2B and B2C coupon codes.
     When method post
     Then status 200
 
+  @B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption_combination_B2C&B2B
+  Scenario: Perform B2B_FLAT_DISCOUNT_ON_SKU cart redemption__0036
+    * def body = apiComponents["B2B_FLAT_DISCOUNT_ON_SKU_coupon_redemption__0036.16"]
+    * set body.skuData = skuData
+    * set body.skuData[*].skuPrice = skuPrice
+    * set body.billAmount = billAmount
+    * set body.masId = apiComponents['CMS_masid']
+    Given path '/coupons/v1/coupons/merchant/fc/coupon-codes'
+    And headers requestHeader
+    And request body
+    When method post
+    Then status 200
+
   @B2B_FLAT_DISCOUNT_ON_SKU_flash_coupon_verification
   Scenario: Perform B2B_FLAT_DISCOUNT_ON_SKU flash coupon __0037
     * def body = apiComponents["B2B_FLAT_DISCOUNT_ON_SKU_flash_coupon__0037"]
@@ -1272,3 +1285,4 @@ Feature: Generate B2B and B2C coupon codes.
     And request body
     When method post
     Then status 200
+
